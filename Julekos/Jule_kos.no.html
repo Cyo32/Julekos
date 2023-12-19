@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="julekos"><span><strong>Julekos.no</strong></span> <br><br>
+    <span id="pepperkaker" style="color:brown">Pepperkaker</span></h1>
+
+    <img src="Bilder/gingerbread croped.jpg" width="1250"/>
+</div>
+    
+<div id="ingredienser">
+        <button onclick="trykk()"><h2>Ingredienser > </h2></button>
+       <h3> <ul id="minTekst" style="display:none;">
+            <li>150g smør</li>
+            <li>1dl lys sirup</li>
+            <li>2dl sukker</li>
+            <li>1dl kremfløte</li>
+            <li>450g hvetemel</li>
+            <li>0,5ts malt ingefær</li>
+            <li>0,5ts malt nellik</li>
+            <li>0,5ts fint pepper</li>
+            <li>2ts malt kanel</li>
+            <li>1ts bakepulver</li>
+        </ul> </h3>
+    </div>
+    
+    <script>
+        function trykk() {
+            var textElement = document.getElementById("minTekst");
+            textElement.style.display = (textElement.style.display === "none" || textElement.style.display === "") ? "block" : "none";
+        }
+    </script>
+
+
+
+<div ID="oppskrift">
+        <ol>
+            <h2>Hvordan lage pepperkaker!</h2>
+            <li>Putt sukker, smør og sirup i en kjele og varm det opp på middels varme til alt sukkeret har smeltet.</li>
+    <br>
+            <li>Flytt kjelen bort fra platen og la blandingen kjøle seg lit ned, derreter rører du inn fløten.</li>
+    <br>    
+            <li>Bland mesteparten av melet inn med krydderene og bakepulveret, og hell det gjennom en sil ned i blandingen.<br>Rør blandingen sammen så den blir en gjevn deig og la den stå kalt til neste dag.</li>
+    <br>
+            <li>Strø resten av melet over bordet. Elt og kjevle ut deigen. den skal være sirka 3mm tykk. Lag former av deigen.</li>
+    <br>
+            <li>Stek pepperkakene på 175 grader i rundt 10 minutter til de er gyllenbrune.</li>
+    <br>
+            <li>flytt de over på en rist for avkjørling. Når de er avkjørlt burde de bli sprø.</li>
+        </ol>
+</div>
+
+</div>
+
+</body>
+</html>

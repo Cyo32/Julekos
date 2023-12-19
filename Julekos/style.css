@@ -1,0 +1,48 @@
+body{background-color: lightgrey;}
+
+strong{
+    margin-left: 25px;
+}
+
+#julekos{
+    background-color: darkgreen;
+    padding-left: 45%;
+    padding-top: 1%; padding-bottom: 1%;
+    }
+
+#pepperkaker{
+background-color: darkblue;
+margin-left: -685px;
+padding-left: 524pt; padding-right: 483pt;
+padding-top: 1%; padding-bottom: 1%;
+}
+
+#oppskrift{
+    margin-left: 75%;
+
+    background-color: lightgreen;
+    padding: 15px;
+    border:solid;
+    border-radius: 20px;
+    border-color: lightgreen;
+    margin-left: 39%; margin-right: 8%;
+}
+
+img{
+    height: 600px; border-radius: 5%; 
+    margin-left: 9%; margin-bottom: 2%; 
+}
+
+button{background-color: crimson;}
+
+#ingredienser{
+float: left;
+margin-left: 9%;
+background-color: red;
+padding: 15px;
+padding-right: 200pt;
+border:solid;
+border-radius: 20px;
+border-color: red;
+padding-bottom: 4px;
+}
